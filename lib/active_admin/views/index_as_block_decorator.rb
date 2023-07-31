@@ -1,6 +1,6 @@
 module ActiveAdmin
   module Views
-    IndexAsBlock.class_eval do
+    class IndexAsBlock
 
       def build(page_presenter, collection)
         add_class "index"
